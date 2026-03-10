@@ -1,51 +1,105 @@
-<div>
-    <div style="background-color: grey; height: 100px; border: white solid 1px; display: flex;">
-        <div style="width: 200px; height: 80px;"><img src="logo.png" style="width: 200px; height: 80px;"></div>
-        <div style="width: 200px; height: 40px; background-color: aliceblue; margin-top: 40px; border: black solid 1px; border-radius: 20px;">
-            <p style="font-family: Arial, Helvetica, sans-serif; color:grey;"> Укажите исполнителя</p>
-        </div>
-    </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
 
-    <div style="height: 800px; background-color: grey; border: solid 1px white;">
-        <div style="width: 800px; height: 100px; background-color: #3a3939; margin-left: auto; margin-right: auto; border: solid 1px white;">
-                <div style="width: 800px; height: 100px; background-color: palevioletred; display: flex;">
-                    <div style="width: 200px; height: 100px; background-color: aquamarine; border: solid 1px white;">
-                        <img src="1.png" style="width: 100px; height: 100px;">
-                    </div>
-                    <div style="width: 600px; height: 100px; background-color: grey;  border: solid 1px white;">
-                        <h2 style="color: white; font-family: Arial, Helvetica, sans-serif;">Laufey - Fallin Behind</h2>
-                    </div>
-                </div>
+    <style>
+      .hieght100 {
+        height: 100px;
+      }
+      .hieght150 {
+        height: 150px;
+      }
+      .hieght300 {
+        height: 300px;
+      }
+      .hieght50 {
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="col-12 d-flex">
+      <div class="col-4 bg-warning hieght100 border border-secondary"></div>
+      <div class="col-4 bg-warning hieght100 border border-secondary">
+        <div class="col-12 hieght50 d-flex">
+          <div
+            class="col-6 bg-warning-subtle hieght50 border border-secondary"
+          ></div>
+          <div
+            class="col-6 bg-warning-subtle hieght50 border border-secondary"
+          ></div>
         </div>
-        <div style="width: 800px; height: 100px; background-color: grey; margin-left: auto; margin-right: auto; border: solid 1px white;">
-                <div style="width: 800px; height: 100px; background-color: palevioletred; display: flex;">
-                    <div style="width: 200px; height: 100px; background-color: aquamarine; border: solid 1px white;">
-                        <img src="2.png" style="width: 100px; height: 100px;">
-                    </div>
-                    <div style="width: 600px; height: 100px; background-color: grey;  border: solid 1px white;">
-                        <h2 style="color: white; font-family: Arial, Helvetica, sans-serif;">MF Doom - Hoe Cakes</h2>
-                    </div>
-                </div>
+        <div class="col-12 hieght50">
+          <div class="col-12 bg-info hieght50 border border-secondary"></div>
         </div>
-        <div style="width: 800px; height: 100px; background-color: grey; margin-left: auto; margin-right: auto; border: solid 1px white;">
-                <div style="width: 800px; height: 100px; background-color: palevioletred; display: flex;">
-                    <div style="width: 200px; height: 100px; background-color: aquamarine; border: solid 1px white;">
-                        <img src="3.png" style="width: 100px; height: 100px;">
-                    </div>
-                    <div style="width: 600px; height: 100px; background-color: grey;  border: solid 1px white;">
-                        <h2 style="color: white; font-family: Arial, Helvetica, sans-serif;">Kaney West - Flashing Lights</h2>
-                    </div>
-                </div>
-        </div>
-        <div style="width: 800px; height: 100px; background-color: grey; margin-left: auto; margin-right: auto; border: solid 1px white;">
-                <div style="width: 800px; height: 100px; background-color: palevioletred; display: flex;">
-                    <div style="width: 200px; height: 100px; background-color: aquamarine; border: solid 1px white;">
-                        <img src="4.png" style="width: 100px; height: 100px;">
-                    </div>
-                    <div style="width: 600px; height: 100px; background-color: grey;  border: solid 1px white;">
-                        <h2 style="color: white; font-family: Arial, Helvetica, sans-serif;">Ice Cube - You Know How We Do It</h2>
-                    </div>
-                </div>
-        </div>
+      </div>
+      <div class="col-4 bg-warning hieght100 border border-secondary"></div>
     </div>
-</div>
+    <div class="col-12 hieght300 d-flex">
+      <div class="col-2 hieght300 bg-primary border border-secondary">
+        <div
+          class="col-12 hieght100 bg-danger bg-gradient border border-black border-3"
+        ></div>
+        <div
+          class="col-12 hieght100 bg-danger bg-gradient border border-black border-3"
+        ></div>
+        <div
+          class="col-12 hieght100 bg-danger bg-gradient border border-black border-3"
+        ></div>
+      </div>
+      <div class="col-8 hieght300 bg-primary border border-secondary d-flex">
+        <div
+          class="col-2 hieght300 bg-danger-subtle border border-secondary"
+        ></div>
+        <div class="col-8 hieght300 bg-danger-subtle border border-secondary">
+          <div class="d-flex">
+            <div
+              class="col-4 hieght150 bg-primary-subtle border border-secondary"
+            ></div>
+            <div
+              class="col-8 hieght150 bg-primary-subtle border border-secondary"
+            ></div>
+          </div>
+          <div class="d-flex">
+            <div
+              class="col-8 hieght150 bg-primary-subtle border border-secondary d-flex"
+            >
+              <div
+                class="col-4 hieght150 bg-danger border border-secondary"
+              ></div>
+              <div
+                class="col-4 hieght150 bg-danger border border-secondary"
+              ></div>
+              <div
+                class="col-4 hieght150 bg-danger border border-secondary"
+              ></div>
+            </div>
+            <div
+              class="col-4 hieght150 bg-primary-subtle border border-secondary"
+            ></div>
+          </div>
+        </div>
+        <div
+          class="col-2 hieght300 bg-danger-subtle border border-secondary d-flex"
+        >
+          <div
+            class="col-6 hieght300 bg-warning border border-black border-3"
+          ></div>
+          <div
+            class="col-6 hieght300 bg-warning border border-black border-3"
+          ></div>
+        </div>
+      </div>
+      <div class="col-2 hieght300 bg-primary border border-secondary"></div>
+    </div>
+  </body>
+</html>
